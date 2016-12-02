@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MoreInfo"
+    android:background="@drawable/app_components"
+    android:orientation="vertical"
+    android:onClick="OnClick"
+    android:id="@+id/x">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click anywhere to go BACK"
+
+        android:gravity="center"
+        android:id="@+id/t" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="\nFunTacTic™\n"
+        android:textSize="40sp"
+        android:layout_marginTop="40dp"
+        android:textColor="#ff34342d"
+        android:gravity="center"
+        android:id="@+id/textView3" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Please acknowledge our efforts \nby rating this app:"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:id="@+id/tv"
+        android:textColor="#b0282828"/>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"/>
+</LinearLayout>

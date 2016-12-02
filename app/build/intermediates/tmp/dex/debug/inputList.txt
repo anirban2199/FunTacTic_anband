@@ -1,0 +1,2 @@
+F:\Android\AndroidStudioProjects\Project\design3\app\build\intermediates\classes\debug
+F:\Android\AndroidStudioProjects\Project\design3\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-50a09bfcef132e130523f15eb1279c72b2cd2c4e.jar

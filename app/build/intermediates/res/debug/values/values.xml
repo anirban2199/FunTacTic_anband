@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/Computer%20Science%20and%20Engineering/Development%20&%20Projects/Android/AndroidStudioProjects/Project/design3/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="blue">#f00</color>
+    <color name="grey">#C3C3C3</color>
+    <!-- From: file:/F:/Computer%20Science%20and%20Engineering/Development%20&%20Projects/Android/AndroidStudioProjects/Project/design3/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/F:/Computer%20Science%20and%20Engineering/Development%20&%20Projects/Android/AndroidStudioProjects/Project/design3/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Player_select">Player 1</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">FunTacTic</string>
+    <string name="congo">Congratulations</string>
+    <string name="draw_1">The game has been</string>
+    <string name="draw_2">drawn</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="reset">Rematch</string>
+    <string name="str_1">has won</string>
+    <string name="str_2">the match</string>
+    <string name="text_bluetooth_off">Bluetooth is Off</string>
+    <string name="text_bluetooth_on">Bluetooth is On</string>
+    <string name="text_disable">Disable</string>
+    <string name="text_enable">Enable</string>
+    <string name="text_list_devices">List of Devices</string>
+    <string name="text_list_paired_devices">Paired Devices</string>
+    <string name="text_pair">Pair</string>
+    <string name="text_scan_devices">Scan Devices</string>
+    <string name="text_stop_scan">Scan Devices</string>
+    <string name="text_view_paired">Paired Devices</string>
+    <!-- From: file:/F:/Computer%20Science%20and%20Engineering/Development%20&%20Projects/Android/AndroidStudioProjects/Project/design3/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

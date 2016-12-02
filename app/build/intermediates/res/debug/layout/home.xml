@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:background="#000000"
+    android:onClick="onClick"
+    >
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/icon1"
+        android:layout_gravity="center"
+        android:layout_marginTop="100sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FunTacTic™"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/textView"
+        android:textSize="50sp"
+        android:layout_gravity="center" />
+</LinearLayout><!-- From: file:/F:/Computer%20Science%20and%20Engineering/Development%20&amp;%20Projects/Android/AndroidStudioProjects/Project/design3/app/src/main/res/layout/home.xml -->

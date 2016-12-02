@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    android:gravity="center|top"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="#ff3b46ff"
+        android:text="@string/text_bluetooth_off"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_enable"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_enable"
+        android:textColor="#ff303089"
+        android:background="#42b4e2ff"
+        android:layout_below="@+id/tv_status"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btn_view_paired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/text_view_paired"
+        android:textColor="#ff303089"
+        android:background="#42b4e2ff"
+        android:layout_below="@+id/btn_scan"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/text_scan_devices"
+        android:textColor="#ff303089"
+        android:background="#42b4e2ff"
+        android:layout_below="@+id/btn_enable"
+        android:layout_marginTop="10sp"        />
+
+    <ImageView
+        android:src="@drawable/icon_off"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/mInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:text="More Info"
+        android:textColor="#ff303089"
+        android:background="#42b4e2ff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/mConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Connect"
+        android:textColor="#ff303089"
+        android:background="#42b4e2ff"
+        android:layout_below="@+id/btn_view_paired"
+        android:layout_marginTop="10sp"        />
+
+</RelativeLayout>
